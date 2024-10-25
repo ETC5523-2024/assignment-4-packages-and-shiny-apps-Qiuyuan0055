@@ -1,0 +1,32 @@
+---
+title: "exploring-emissions"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{exploring-emissions}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(emissions)
+```
+
+# Exploring Carbon Emissions Data
+
+#This vignette explains how to use the `emissions` package to explore global carbon emissions from major companies.
+
+## Installation
+```r
+remotes::install_github("Qiuyuan0055/emissions")
+```
+```{r}
+run_shiny_app()
+```
+
