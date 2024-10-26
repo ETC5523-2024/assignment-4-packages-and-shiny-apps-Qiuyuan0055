@@ -1,10 +1,11 @@
 Package: emissions
-Title: What the Package Does (One Line, Title Case)
+Title: emissions package
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
+    person("Qiuyuan", "Chen", , "qche0055@student.monash.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+Description: The emissions package provides an interactive way to explore global carbon emissions data from major companies. Users can analyze emission trends over time for different companies through a Shiny app interface, allowing them to investigate patterns and changes in carbon output across industries. This package is ideal for researchers, policymakers, and anyone interested in environmental data analysis.
+URL: https://Qiuyuan0055.github.io/assignment-4-packages-and-shiny-apps-Qiuyuan0055
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)

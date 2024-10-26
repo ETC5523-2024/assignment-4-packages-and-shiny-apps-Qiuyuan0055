@@ -27,6 +27,8 @@ library(emissions)
 remotes::install_github("Qiuyuan0055/emissions")
 ```
 ```{r}
-run_shiny_app()
+run_shiny_app <- function() {
+    shiny::runApp('inst/shinyapp')
+}
 ```
 
